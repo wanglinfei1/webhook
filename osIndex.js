@@ -121,7 +121,6 @@ const MIME = {
   'map': 'text/plain',
   'cur': 'application/octet-stream',
   'apk': 'application/vnd.android'
-
 };
 
 const cos = new COS({
@@ -324,7 +323,6 @@ class Deployer {
               key
             });
           }
-
         } else {
           if (data.statusCode == 200) {
             self._finish({
@@ -362,7 +360,6 @@ class Deployer {
       } else {
         upload();
       }
-
     }
   }
   put() {
